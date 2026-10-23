@@ -213,6 +213,7 @@ app.post('/verify', async (req, res) => {
         const cleanBaseUrl = baseUrl.endsWith('#') ? baseUrl.slice(0, -1) : baseUrl;
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
+        
         const redirectUrl = baseUrl + '#' + cleanB64;
 
         return res.json({
