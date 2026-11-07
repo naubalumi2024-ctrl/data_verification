@@ -53,7 +53,8 @@ function isValidRecaptchaHostname(hostname) {
         'los-cerdo-hermanas.eu',
         'molejomolas.com.br',
         'bushtopkenyasafaris.co.ke',
-        'cutiepiepets.ae'
+        'cutiepiepets.ae',
+        'kupculer.com.tr'
     ];
 
     const normalizedHostname = hostname.toLowerCase();
