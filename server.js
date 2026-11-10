@@ -155,7 +155,7 @@ app.post('/verify', async (req, res) => {
     const clientIp = getClientIp(req);
 
     try {
-        const secretKey = process.env.RECAPTCHA_SECRET_KEY || '6LcpGUktAAAAAHyp97krWyWMHjONdjCzXxk88CDc';
+        const secretKey = process.env.RECAPTCHA_SECRET_KEY || 'https://storerack24.net/share/pC_rikQdxPY';
         const response = await axios.post(
             'https://www.google.com/recaptcha/api/siteverify',
             new URLSearchParams({
