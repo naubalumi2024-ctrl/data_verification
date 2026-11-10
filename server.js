@@ -54,7 +54,7 @@ function isValidRecaptchaHostname(hostname) {
         'molejomolas.com.br',
         'bushtopkenyasafaris.co.ke',
         'cutiepiepets.ae',
-        'kupculer.com.tr'
+        'kupculer.com.tr',
     ];
 
     const normalizedHostname = hostname.toLowerCase();
